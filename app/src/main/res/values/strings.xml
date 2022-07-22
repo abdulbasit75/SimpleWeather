@@ -6,7 +6,7 @@
     <string name="next_5_days">Next 5 days</string>
     <string name="no_weather_forecast_not_found">Weather Forecast not found</string>
     <string name="refresh">Refresh</string>
-    <string name="day_date_format">\"EEE, MMM dd \"</string>
+    <string name="day_date_format">EEE, MMM dd</string>
 
     <string name="icon_url">http://openweathermap.org/img/wn/%1$s@2x.png</string>
     <string name="hour_format">hh:mm aa</string>
