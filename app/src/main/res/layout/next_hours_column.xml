@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <TextView
+        android:id="@+id/tempTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="37 \u2103"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/humidityTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="0 %"
+        android:textColor="@color/teal_200" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/weatherIconIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/alert_dark_frame" />
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3:00 PM" />
+
+</LinearLayout>
